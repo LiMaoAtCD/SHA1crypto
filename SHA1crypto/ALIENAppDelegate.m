@@ -7,7 +7,7 @@
 //
 
 #import "ALIENAppDelegate.h"
-
+#import "NSString+encrypto.h"
 @implementation ALIENAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,6 +16,15 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    NSString *aa = @"aa";
+    
+    
+    NSLog(@"[aa sha1]=%@",[aa sha1]);
+    
+    
+    
+    
     return YES;
 }
 

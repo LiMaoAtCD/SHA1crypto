@@ -19,6 +19,7 @@
 		877741A019134FD100EAA739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8777418819134FD100EAA739 /* UIKit.framework */; };
 		877741A819134FD100EAA739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877741A619134FD100EAA739 /* InfoPlist.strings */; };
 		877741AA19134FD100EAA739 /* SHA1cryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877741A919134FD100EAA739 /* SHA1cryptoTests.m */; };
+		877741B81913514900EAA739 /* NSString+encrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 877741B71913514900EAA739 /* NSString+encrypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		877741A519134FD100EAA739 /* SHA1cryptoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHA1cryptoTests-Info.plist"; sourceTree = "<group>"; };
 		877741A719134FD100EAA739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		877741A919134FD100EAA739 /* SHA1cryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHA1cryptoTests.m; sourceTree = "<group>"; };
+		877741B61913514900EAA739 /* NSString+encrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encrypto.h"; sourceTree = "<group>"; };
+		877741B71913514900EAA739 /* NSString+encrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encrypto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				8777419319134FD100EAA739 /* ALIENAppDelegate.h */,
 				8777419419134FD100EAA739 /* ALIENAppDelegate.m */,
+				877741B61913514900EAA739 /* NSString+encrypto.h */,
+				877741B71913514900EAA739 /* NSString+encrypto.m */,
 				8777419619134FD100EAA739 /* Images.xcassets */,
 				8777418B19134FD100EAA739 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				8777419519134FD100EAA739 /* ALIENAppDelegate.m in Sources */,
 				8777419119134FD100EAA739 /* main.m in Sources */,
+				877741B81913514900EAA739 /* NSString+encrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
